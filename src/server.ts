@@ -56,7 +56,7 @@ import { filterImageFromURL, deleteLocalFiles } from "./util/util";
 
     // Start the Server
     app.listen(port, () => {
-        console.log(`server running http://localhost:${port}`);
+        console.log(`server running http://127.0.0.1:${port}`);
         console.log(`press CTRL+C to stop server`);
     });
 })();
